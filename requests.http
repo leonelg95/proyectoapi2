@@ -1,0 +1,38 @@
+###
+POST  http://localhost:8080/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre" : "Manuel",
+    "edad":30,
+   "email": "manuel1055@hotmail.com"
+
+
+}
+
+###
+get http://localhost:8080/api/users HTTP/1.1
+
+
+
+
+###
+get http://localhost:8080/api/users/66317e42983e8a18dcacb49e HTTP/1.1
+
+
+###
+
+PUT http://localhost:8080/api/users/66317e47983e8a18dcacb4a0 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre" : " Leonel Guzman  ",
+    "edad":  26 ,
+   "email": " leodkno55@hotmail.com "
+
+
+}
+
+###
+
+DELETE http://localhost:8080/api/users/66317e42983e8a18dcacb49e   HTTP/1.1
